@@ -14,18 +14,21 @@ $rtl:                               false;
  */
 
 $brand-color:                       #BE3144;
+
+$alt-color-white:                   #fff;
 $alt-color-lighter:                 #e8ebee;
 $alt-color-light:                   #adb7c3;
 $alt-color:                         #738497;
 $alt-color-dark:                    #46515e;
 $alt-color-darker:                  #303841;
+$alt-color-black:                   #000;
 
 
 /**
  * Typography
  */
 
-$font-family-default:               -apple-system, BlinkMacSystemFont,
+$font-family-default:               'Roboto', -apple-system, BlinkMacSystemFont,
                                     'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
                                     'Fira Sans', 'Droid Sans', 'Helvetica Neue',
                                     sans-serif;
@@ -36,7 +39,7 @@ $font-size-large:                   1.5rem;
 
 $line-height-default:               1.45;
 
-$text-color:                        $alt-color-darker;
+$text-color:                        $alt-color-black;
 $link-color:                        $brand-color;
 $muted-color:                       transparentize($text-color, .4);
 

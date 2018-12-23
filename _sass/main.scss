@@ -45,31 +45,35 @@
 
 @import '../node_modules/kanbasu/src/scss/helpers/text';
 @import '../node_modules/kanbasu/src/scss/helpers/text-responsive';
-@import '../node_modules/kanbasu/src/scss/helpers/float';
+// @import '../node_modules/kanbasu/src/scss/helpers/float';
 @import '../node_modules/kanbasu/src/scss/helpers/spacings';
 @import '../node_modules/kanbasu/src/scss/helpers/spacings-responsive';
-@import '../node_modules/kanbasu/src/scss/helpers/images';
-@import '../node_modules/kanbasu/src/scss/helpers/positionning';
+// @import '../node_modules/kanbasu/src/scss/helpers/images';
+// @import '../node_modules/kanbasu/src/scss/helpers/positionning';
 @import '../node_modules/kanbasu/src/scss/helpers/display';
-@import '../node_modules/kanbasu/src/scss/helpers/align';
-@import '../node_modules/kanbasu/src/scss/helpers/align-responsive';
+// @import '../node_modules/kanbasu/src/scss/helpers/align';
+// @import '../node_modules/kanbasu/src/scss/helpers/align-responsive';
+
+@import 'helpers/text';
 
 
 /**
  * Components
  */
 
-@import '../node_modules/kanbasu/src/scss/components/grid';
-@import '../node_modules/kanbasu/src/scss/components/widths';
-@import '../node_modules/kanbasu/src/scss/components/widths-responsive';
-@import '../node_modules/kanbasu/src/scss/components/btn';
-@import '../node_modules/kanbasu/src/scss/components/box';
-@import '../node_modules/kanbasu/src/scss/components/media';
-@import '../node_modules/kanbasu/src/scss/components/media-responsive';
-@import '../node_modules/kanbasu/src/scss/components/list';
-@import '../node_modules/kanbasu/src/scss/components/list-inline';
-@import '../node_modules/kanbasu/src/scss/components/list-stacked';
-@import '../node_modules/kanbasu/src/scss/components/embed-responsive';
+// @import '../node_modules/kanbasu/src/scss/components/grid';
+// @import '../node_modules/kanbasu/src/scss/components/widths';
+// @import '../node_modules/kanbasu/src/scss/components/widths-responsive';
+// @import '../node_modules/kanbasu/src/scss/components/btn';
+// @import '../node_modules/kanbasu/src/scss/components/box';
+// @import '../node_modules/kanbasu/src/scss/components/media';
+// @import '../node_modules/kanbasu/src/scss/components/media-responsive';
+// @import '../node_modules/kanbasu/src/scss/components/list';
+// @import '../node_modules/kanbasu/src/scss/components/list-inline';
+// @import '../node_modules/kanbasu/src/scss/components/list-stacked';
+// @import '../node_modules/kanbasu/src/scss/components/embed-responsive';
 @import '../node_modules/kanbasu/src/scss/components/container';
-@import '../node_modules/kanbasu/src/scss/components/pusher';
-@import '../node_modules/kanbasu/src/scss/components/table-responsive';
+// @import '../node_modules/kanbasu/src/scss/components/pusher';
+// @import '../node_modules/kanbasu/src/scss/components/table-responsive';
+
+@import 'components/herobanner';
