@@ -1,0 +1,36 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
+  </head>
+  <body class="{{ page.body-class }}">
+    <span class="hidden">
+      {% include lenny-face.html %}
+    </span>
+
+    <!-- Icon SVG code -->
+    {% include icon-svg.html %}
+
+    <!-- Header nav -->
+    <header>
+    </header>
+
+    <!-- I'm the master -->
+    <div class="master">
+      {{ content }}
+    </div>
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="{{ '/assets/javascripts/bundle.js' | prepend: site.baseurl }}"></script>
+  </body>
+</html>

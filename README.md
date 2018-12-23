@@ -1,0 +1,1 @@
+This is LMF website build with Jekyll and using Forestry.io as CMS.
