@@ -1,0 +1,90 @@
+/*----------------------------------------*\
+  SECTION
+\*----------------------------------------*/
+
+.section {
+  margin-top: rem(300px);
+
+  @include media('md') {
+    margin-top: rem(450px);
+  }
+}
+
+  .section__title {
+    position: relative;
+    top: rem(-80px);
+
+    font-size: rem(50px);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+
+    @include media('md') {
+      top: rem(-250px);
+      font-size: rem(80px);
+    }
+
+    @include media('lg') {
+      top: rem(-200px);
+    }
+  }
+
+.section--strip {
+  width: 100%;
+  height: 100%;
+  padding-bottom: rem(100px);
+
+  position: relative;
+
+  transform: skew(0deg, -18deg);
+  background-image: url('images/section-strip--middle.svg');
+
+  @include media('md') {
+    transform: skew(0deg, 0deg);
+  }
+
+  .section__container {
+    transform: skew(0deg, 18deg);
+
+    @include media('md') {
+      transform: skew(0deg, 0deg);
+    }
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+
+    position: absolute;
+    left: 0px;
+
+    background-repeat: no-repeat;
+
+    @include media('md') {
+      height: 200px;
+
+      transform: skew(0deg, 0deg);
+
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  @include media('md') {
+    &::before {
+      top: -200px;
+
+      background-position: top center;
+      background-image: url('images/section-strip--top.svg');
+    }
+
+    &::after {
+      bottom: -200px;
+
+      background-position: bottom center;
+      background-image: url('images/section-strip--bottom.svg');
+    }
+  }
+}

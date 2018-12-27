@@ -1,0 +1,19 @@
+<section class="news section section--strip">
+  <div class="section__container container">
+    <h1 class="text-rotate text-center section__title">{{ t.festival }}</h1>
+    {% if site.data.news %}
+      <h2 class="text-center mrgt0">{{ t.news.title }}</h2>
+      <div class="grid grid--multiline">
+        {% for news in site.data.news %}
+          <div class="grid__item w-1/1 sm-w-1/2 md-w-1/3">
+            <div class="box box--primary">
+              <h3 class="mrgt0 text-uppercase">{{ news.title }}</h3>
+              <img src="{{ news.image | prepend:site.baseurl }}" class="news__img img-block">
+              <p class="mrgb0">{{ news.content }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</section>
