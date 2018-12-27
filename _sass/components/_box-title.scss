@@ -1,0 +1,12 @@
+/*----------------------------------------*\
+  BOX TITLE
+\*----------------------------------------*/
+
+.box-title {
+  max-width: 600px;
+  margin: $spacing-unit-default auto;
+  padding: $spacing-unit-small;
+  border: $alt-brand-color 3px dashed;
+
+  background-color: #fff;
+}

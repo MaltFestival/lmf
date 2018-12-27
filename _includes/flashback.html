@@ -1,0 +1,17 @@
+<div class="flashback">
+  <div class="box-title">
+    <h2 class="mrgv0">{{ t.flashback.title }}</h2>
+    <p class="text-bold text-uppercase mrgv0">{{ t.flashback.date }}</p>
+  </div>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      {% for flashback in site.data.flashback %}
+        <img src="{{ flashback.image | prepend:site.baseurl }}" class="swiper-slide">
+      {% endfor %}
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</div>
