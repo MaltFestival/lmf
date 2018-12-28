@@ -5,3 +5,15 @@
 .text-rotate {
   transform: skew(0deg, -18deg);
 }
+
+.text-upperline::before {
+  content: '';
+  display: block;
+  max-width: 200px;
+  height: 5px;
+  margin-right: auto;
+  margin-bottom: $spacing-unit-default;
+  margin-left: auto;
+
+  background-color: #000;
+}

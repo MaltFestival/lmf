@@ -3,53 +3,14 @@
 \*----------------------------------------*/
 
 .section {
-  margin-top: rem(300px);
-
-  @include media('md') {
-    margin-top: rem(450px);
-  }
-}
-
-  .section__title {
-    position: relative;
-    top: rem(-80px);
-
-    font-size: rem(50px);
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 1;
-
-    @include media('md') {
-      top: rem(-250px);
-      font-size: rem(80px);
-    }
-
-    @include media('lg') {
-      top: rem(-200px);
-    }
-  }
-
-.section--strip {
   width: 100%;
   height: 100%;
+  margin-top: rem(300px);
   padding-bottom: rem(100px);
 
   position: relative;
 
   transform: skew(0deg, -18deg);
-  background-image: url('images/section-strip--middle.svg');
-
-  @include media('md') {
-    transform: skew(0deg, 0deg);
-  }
-
-  .section__container {
-    transform: skew(0deg, 18deg);
-
-    @include media('md') {
-      transform: skew(0deg, 0deg);
-    }
-  }
 
   &::before,
   &::after {
@@ -73,6 +34,9 @@
   }
 
   @include media('md') {
+    margin-top: rem(450px);
+    transform: skew(0deg, 0deg);
+
     &::before {
       top: -200px;
 
@@ -84,6 +48,65 @@
       bottom: -200px;
 
       background-position: bottom center;
+      background-image: url('images/section-strip--bottom.svg');
+    }
+  }
+}
+
+  .section__container {
+    transform: skew(0deg, 18deg);
+
+    @include media('md') {
+      transform: skew(0deg, 0deg);
+    }
+  }
+
+  .section__title {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: rem(-80px);
+
+    font-size: rem(50px);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+
+    @include media('md') {
+      top: rem(-250px);
+      font-size: rem(80px);
+    }
+
+    @include media('lg') {
+      top: rem(-200px);
+    }
+  }
+
+.section--brand {
+  background-color: $alt-brand-color;
+
+  @include media('md') {
+    margin-top: rem(600px);
+
+    &::before {
+      background-image: url('images/section-brand--top.svg');
+    }
+
+    &::after {
+      background-image: url('images/section-brand--bottom.svg');
+    }
+  }
+}
+
+.section--strip {
+  background-image: url('images/section-strip--middle.svg');
+
+  @include media('md') {
+    &::before {
+      background-image: url('images/section-strip--top.svg');
+    }
+
+    &::after {
       background-image: url('images/section-strip--bottom.svg');
     }
   }
