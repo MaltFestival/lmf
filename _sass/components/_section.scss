@@ -41,14 +41,12 @@
       top: -200px;
 
       background-position: top center;
-      background-image: url('images/section-strip--top.svg');
     }
 
     &::after {
       bottom: -200px;
 
       background-position: bottom center;
-      background-image: url('images/section-strip--bottom.svg');
     }
   }
 }
@@ -108,6 +106,23 @@
 
     &::after {
       background-image: url('images/section-strip--bottom.svg');
+    }
+  }
+}
+
+.section--sponsor-partner {
+  background-image: url('images/section-strip.svg');
+  background-size: 15px 15px;
+
+  .section__title {
+    top: rem(-130px);
+
+    transform: skew(0deg, -18deg);
+
+    @include media('md') {
+      top: rem(-75px);
+
+      transform: skew(0deg, 0deg);
     }
   }
 }

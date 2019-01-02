@@ -13,4 +13,9 @@ fr:
     date: 26 mai 2018
   about:
     title: LMF 2018
-    description: lLorem ipsum dolor sit amet, consectetur adipiscing elit. Quid turpius quam sapientis vitam ex insipientium sermone pendere? Quid de Pythagora? Apud imperitos tum illa dicta sunt, aliquid etiam coronae datum; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Eorum enim omnium multa praetermittentium, dum eligant aliquid, quod sequantur, quasi curta 
+    description: lLorem ipsum dolor sit amet, consectetur adipiscing elit. Quid turpius quam sapientis vitam ex insipientium sermone pendere? Quid de Pythagora? Apud imperitos tum illa dicta sunt, aliquid etiam coronae datum; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Eorum enim omnium multa praetermittentium, dum eligant aliquid, quod sequantur, quasi curta
+  sponsor-partner:
+    title: Sponsors & partenaires
+    description: lLorem ipsum dolor sit amet, consectetur adipiscing elit. Quid turpius quam sapientis vitam ex insipientium sermone pendere? Quid de Pythagora? Apud imperitos tum illa dicta sunt, aliquid etiam coronae datum; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Eorum enim omnium multa praetermittentium, dum eligant aliquid, quod sequantur, quasi curta
+    btn: Soutenez-nous !
+    pdf: "/assets/images/logo.svg"
