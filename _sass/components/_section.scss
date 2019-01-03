@@ -63,9 +63,9 @@
     max-width: 600px;
     margin: 0 auto;
     position: relative;
-    top: rem(-80px);
+    top: rem(-45px);
 
-    font-size: rem(50px);
+    font-size: rem(40px);
     font-weight: 900;
     text-transform: uppercase;
     line-height: 1;
@@ -76,7 +76,7 @@
     }
 
     @include media('lg') {
-      top: rem(-200px);
+      top: rem(-220px);
     }
   }
 
@@ -111,17 +111,19 @@
 }
 
 .section--sponsor-partner {
-  background-image: url('images/section-strip.svg');
+  background-color: $alt-color-lighter;
   background-size: 15px 15px;
 
-  .section__title {
-    top: rem(-130px);
+  @include media('md') {
+    padding-top: $spacing-unit-huge;
+  }
 
+  .section__title {
+    top: rem(-90px);
     transform: skew(0deg, -18deg);
 
     @include media('md') {
-      top: rem(-75px);
-
+      position: static;
       transform: skew(0deg, 0deg);
     }
   }
