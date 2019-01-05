@@ -4,12 +4,11 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: Pages
+- type: directory
+  path: _data
+  label: Content
   create: all
-- type: jekyll-posts
-  label: Posts
-  create: all
+  match: "**/*.yml"
 upload_dir: forestryio/images
 public_path: "{{ site.baseurl }}/forestryio/images"
 front_matter_path: "/forestryio/images"
