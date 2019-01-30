@@ -9,54 +9,22 @@
     </div>
     <div class="mrgb++">
       <div class="grid grid--multiline">
-        <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-          <img src="{{ "/assets/images/brewers/7peaks.png" | prepend:site.baseurl }}" class="about__logo">
-        </div>
-        <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-          <img src="{{ "/assets/images/brewers/bfm.png" | prepend:site.baseurl }}" class="about__logo">
-        </div>
-        <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-          <img src="{{ "/assets/images/brewers/cote-west-brewing.png" | prepend:site.baseurl }}" class="about__logo">
-        </div>
-        <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-          <img src="{{ "/assets/images/brewers/gabs.png" | prepend:site.baseurl }}" class="about__logo">
-        </div>
-        <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-          <img src="{{ "/assets/images/brewers/jorat.png" | prepend:site.baseurl }}" class="about__logo">
-        </div>
-        <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-          <img src="{{ "/assets/images/brewers/totally-beer.png" | prepend:site.baseurl }}" class="about__logo">
-        </div>
-        <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-          <img src="{{ "/assets/images/brewers/white-frontier.png" | prepend:site.baseurl }}" class="about__logo">
-        </div>
+        {% for brewer in site.data.brewers %}
+          <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
+            <img src="{{ brewer.image | prepend:site.baseurl }}" class="about__logo">
+          </div>
+        {% endfor %}
       </div>
     </div>
     <div class="box-title">
       <h2 class="text-center mrgv0">{{ t.musicians }}</h2>
     </div>
     <div class="grid grid--multiline">
-      <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-        <img src="{{ "/assets/images/musician/bsd.png" | prepend:site.baseurl }}" class="about__logo">
-      </div>
-      <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-        <img src="{{ "/assets/images/musician/ccc.png" | prepend:site.baseurl }}" class="about__logo">
-      </div>
-      <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-        <img src="{{ "/assets/images/musician/el.png" | prepend:site.baseurl }}" class="about__logo">
-      </div>
-      <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-        <img src="{{ "/assets/images/musician/eta.png" | prepend:site.baseurl }}" class="about__logo">
-      </div>
-      <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-        <img src="{{ "/assets/images/musician/gipsy-tonic.png" | prepend:site.baseurl }}" class="about__logo">
-      </div>
-      <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-        <img src="{{ "/assets/images/musician/sugar-swing.png" | prepend:site.baseurl }}" class="about__logo">
-      </div>
-      <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-        <img src="{{ "/assets/images/musician/viperswing.png" | prepend:site.baseurl }}" class="about__logo">
-      </div>
+      {% for musician in site.data.musician %}
+        <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
+          <img src="{{ musician.image | prepend:site.baseurl }}" class="about__logo">
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>
