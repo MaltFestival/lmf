@@ -1,10 +1,10 @@
 ---
-- title: Lancement de la deuxième édition !
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
-  image: "/forestryio/images/flashback-1.jpg"
-- title: Fake news !
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus partibus maiores quam corporis. Idemne, quod iucunde?
-  image: "/forestryio/images/flashback-1.jpg"
-- title: Another fake news!
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus partibus maiores quam corporis. Idemne, quod iucunde?
-  image: "/forestryio/images/flashback-1.jpg"
+- title: Première soirée teaser I
+  content: "Un petit avant-gout du Festival ? On t’attend à la première soirée dégustation du LMF le 23 Février à la Datcha. Rendez-vous avec Hordeum, pour déguster des bières hors du commun, Gipsy Tonic pour ambiancer les foules et El Gaucho pour nourrir les affamés. Toute l’équipe est impatiente d’essayer ce nouveau concept et on espère vous y trouver nombreux pour pouvoir le renouveler prochainement."
+  image: "/forestryio/images/news_st1.jpg"
+- title: Save the date!
+  content: "La belle histoire du LMF continue ! Le festival ouvre de nouveau ses portes et vous attend le 18 Mai prochain !!! Toujours la même recette de grand-mère : brasseries, concerts et surtout une rasade de bonne ambiance avec un zeste de nouvelles surprises. Cette année le Festival grandit avec encore plus de choix de bières, de nouveaux artistes mais toujours au même endroit : rendez-vous au Lacustre."
+  image: "/forestryio/images/news_date.jpg"
+- title: Nouveau comité
+  content: "Nouveau comité, Nouvelle édition ! On ne change pas une équipe qui gagne et pourtant… Après le succès du premier épisode du LMF, une nouvelle équipe revient pour amener son lot de nouveautés au festival.  Un comité plus grand et plus motivé pour que l’histoire du LMF ne s’arrête jamais."
+  image: "/forestryio/images/news_comite.jpg"
