@@ -11,7 +11,9 @@
       <div class="grid grid--multiline">
         {% for brewer in site.data.brewers %}
           <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-            <img src="{{ brewer.image | prepend:site.baseurl }}" class="about__logo">
+            <a href="{{ brewer.link }}" target="_blank">
+              <img src="{{ brewer.image | prepend:site.baseurl }}" class="about__logo">
+            </a>
           </div>
         {% endfor %}
       </div>
@@ -22,7 +24,9 @@
     <div class="grid grid--multiline">
       {% for musician in site.data.musician %}
         <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-          <img src="{{ musician.image | prepend:site.baseurl }}" class="about__logo">
+          <a href="{{ musician.link }}" target="_blank">
+            <img src="{{ musician.image | prepend:site.baseurl }}" class="about__logo">
+          </a>
         </div>
       {% endfor %}
     </div>
