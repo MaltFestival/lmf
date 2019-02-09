@@ -3,6 +3,7 @@ fr:
   festival: Le festival
   brewers: Brasseurs
   musicians: Musiciens
+  sponsors: Sponsors
   herobanner:
     title:
       when: samedi 18 mai 2019
@@ -16,7 +17,7 @@ fr:
     title: LMF 2019
     description: ''
   sponsor-partner:
-    title: Sponsors & partenaires
+    title: Devenir Sponsor
     description: Associer son image à celle du LMF, c'est d'abord s'offrir une visibilité
       auprès d'une large audience. C'est aussi l'occasion de mettre en place quelques
       actions d'enfer pour faire valoir vos produits et vos services. Enfin, c'est

@@ -1,0 +1,13 @@
+---
+- name: Junior Enterprise
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  image: "/assets/images/sponsor/logo_je.png"
+  link: https://je.epfl.ch/
+- name: Levatura SA
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  image: "/assets/images/sponsor/logo_levatura.png"
+  link: https://levatura.ch/
+- name: Zoo Burger
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  image: "/assets/images/sponsor/logo_zooburger.png"
+  link: https://www.zooburger.ch/
