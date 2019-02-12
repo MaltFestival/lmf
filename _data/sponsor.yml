@@ -1,4 +1,8 @@
 ---
+- name: Beer label
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  image: "/assets/images/sponsor/logo_beerlabel.png"
+  link: https://www.beer-label.ch/
 - name: Junior Enterprise
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
   image: "/assets/images/sponsor/logo_je.png"
