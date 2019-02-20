@@ -1,7 +1,7 @@
 ---
-- name: Lacustre
-  image: "/assets/images/partner/logo_lacustre.png"
-  link: https://www.facebook.com/thelacustre/
 - name: Datcha
   image: "/assets/images/partner/logo_datcha.png"
   link: https://la-datcha.ch/
+- name: Lacustre
+  image: "/assets/images/partner/logo_lacustre.png"
+  link: https://www.facebook.com/thelacustre/
