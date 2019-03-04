@@ -12,6 +12,10 @@
   image: "/assets/images/brewers/simmentaler.png"
   link: https://simmentalerbier.ch/
 - name: White Frontier
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si ami    cum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  image: "/assets/images/brewers/virage.png"
+  link: http://www.virage.beer/ 
+- name: White Frontier
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, siamicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
   image: "/assets/images/brewers/white_frontier.png"
   link: http://www.whitefrontier.ch/
