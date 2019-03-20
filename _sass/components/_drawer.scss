@@ -1,0 +1,141 @@
+/*----------------------------------------*\
+  DRAWER
+\*----------------------------------------*/
+
+.drawer {}
+  .drawer__burger {
+    width: 80px;
+    height: 80px;
+
+    transition: left 0.4s ease-in-out;
+
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    z-index: 100;
+    cursor: pointer;
+
+    background-image: url('images/burger.svg');
+    background-repeat: no-repeat;
+
+
+    &.is-active {
+      left: 245px;
+
+      @include media('sm') {
+        left: 350px;
+      }
+    }
+  }
+
+  .drawer__body {
+    display: flex;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .drawer__sidebar {
+    width: 245px;
+    height: 100%;
+
+    @include media('sm') {
+      width: 350px;
+    }
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    transform: translate(-100%, 0);
+    transition: 0.4s ease-in-out;
+
+    background-color: $alt-color-white;
+    visibility: hidden;
+    pointer-events: initial;
+  }
+
+  /**
+   * NAV
+   */
+  .drawer__nav {
+    $drawer-nav-spacing: 77px;
+
+    height: 100vh;
+    margin-top: $drawer-nav-spacing;
+
+    // Trick warning : Ensure that the whole height is scrollable
+    // on small viewport.
+    border-bottom: $drawer-nav-spacing solid transparent;
+    padding-bottom: $drawer-nav-spacing;
+
+    overflow-y: scroll;
+  }
+
+    .drawer__item {
+      font-weight: bold;
+    }
+
+    .drawer__link {
+      width: 100%;
+      display: inline-block;
+
+      color: $alt-color-black;
+      text-decoration: none;
+      font-size: rem(40px);
+      font-weight: 800;
+      font-family: $font-family-main;
+
+      &:hover,
+      &.active {
+        color: $brand-color;
+      }
+    }
+
+  /**
+   * Overlay
+   */
+  .drawer__overlay {
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+
+    z-index: -1;
+    background: rgba(0,0,0,0);
+    transition: 0.4s background cubic-bezier(0.6, 0.04, 0.3, 1);
+  }
+
+
+/**
+ * ACTIVE STATE
+ */
+.drawer-open {
+  overflow: hidden;
+
+  .drawer__sidebar {
+    transform: translate(0px, 0px);
+    visibility: visible;
+  }
+
+  .drawer__overlay {
+    background: rgba(0,0,0,0.4);
+    z-index: 5;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+}
+

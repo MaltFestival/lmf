@@ -11,20 +11,6 @@
   background-image: url('images/herobanner.svg');
 }
 
-  .herobanner__burger {
-    display: none; // hidden until we need it
-    width: 80px;
-    height: 80px;
-
-    position: fixed;
-    top: 50px;
-    left: 0px;
-    z-index: 100;
-
-    background-image: url('images/burger.svg');
-    background-repeat: no-repeat;
-  }
-
   .herobanner__container {
     display: flex;
     flex-direction: column;
