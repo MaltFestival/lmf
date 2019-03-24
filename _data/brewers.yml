@@ -3,6 +3,14 @@
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
   image: "/assets/images/brewers/bartis.png"
   link: https://www.bartis.ch/
+- name: BFM 
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  image: "/assets/images/brewers/bfm.png"
+  link: https://www.brasseriebfm.ch/
+- name: Drunk Beard 
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  image: "/assets/images/brewers/drunk_beard.png"
+  link: https://www.drunkbeard.ch/
 - name: Glouglou 
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
   image: "/assets/images/brewers/glouglou.png"
