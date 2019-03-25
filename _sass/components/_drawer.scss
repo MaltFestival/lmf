@@ -28,6 +28,16 @@
     }
   }
 
+  .drawer__logo {
+    width: 245px;
+    margin-top: $spacing-unit-default;
+    padding: 0 33%;
+
+    @include media('sm') {
+      width: 350px;
+    }
+  }
+
   .drawer__body {
     display: flex;
     align-items: center;
@@ -72,7 +82,7 @@
     $drawer-nav-spacing: 77px;
 
     height: 100vh;
-    margin-top: $drawer-nav-spacing;
+    padding-top: $spacing-unit-default;
 
     // Trick warning : Ensure that the whole height is scrollable
     // on small viewport.
@@ -92,7 +102,12 @@
 
       color: $alt-color-black;
       text-decoration: none;
-      font-size: rem(40px);
+      font-size: rem(34px);
+
+      @include media('sm') {
+        font-size: rem(40px);
+      }
+
       font-weight: 800;
       font-family: $font-family-main;
 
