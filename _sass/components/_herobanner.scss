@@ -11,6 +11,19 @@
   background-image: url('images/herobanner.svg');
 }
 
+.herobanner--small {
+  height: 450px;
+
+  .herobanner__center {
+    width: 100%;
+  }
+
+  .herobanner__logo {
+    width: 150px;
+    margin: 0 auto;
+  }
+}
+
   .herobanner__container {
     display: flex;
     flex-direction: column;
