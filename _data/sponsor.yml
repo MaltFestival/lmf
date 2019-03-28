@@ -19,6 +19,10 @@
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
   image: "/assets/images/sponsor/logo_sci.png"
   link: https://www.sci-services.ch/
+- name: Swiss Bubble Football
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  image: "/assets/images/sponsor/logo_sbf.png"
+  link: http://www.swissbubblefootball.com/
 - name: Zoo Burger
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
   image: "/assets/images/sponsor/logo_zooburger.png"
