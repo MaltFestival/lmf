@@ -6,6 +6,15 @@
   transform: skew(0deg, -18deg);
 }
 
+.text-main {
+  position: relative;
+  top: -50px;
+
+  @include media('sm') {
+    font-size: rem(80px);
+  }
+}
+
 .text-upperline::before {
   content: '';
   display: block;

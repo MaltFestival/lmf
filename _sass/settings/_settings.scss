@@ -208,8 +208,19 @@ $media-collapse:                    $screen-sm-max;
  * Container
  */
 
-$container-gutter-width:            $spacing-unit-small;
+ /**
+  * Container
+  */
+
+$container-gutter-width:            18px;
+$container-md-gutter-width:         22px;
+$container-lg-gutter-width:         $spacing-unit-large;
 $container-max-width:               1200px;
+
+$container-tiny-max-width:          550px;
+$container-small-max-width:         800px;
+$container-gutter-width:            $spacing-unit-small;
+
 
 
 /**

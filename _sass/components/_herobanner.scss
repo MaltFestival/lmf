@@ -12,15 +12,23 @@
 }
 
 .herobanner--small {
-  height: 450px;
+  height: 280px;
+
+  @include media('sm') {
+    height: 450px;
+  }
 
   .herobanner__center {
     width: 100%;
   }
 
   .herobanner__logo {
-    width: 150px;
+    width: 100px;
     margin: 0 auto;
+
+    @include media('sm') {
+      width: 150px;
+    }
   }
 }
 

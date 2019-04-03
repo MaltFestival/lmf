@@ -3,18 +3,18 @@
 
   <nav class="drawer__body">
     <sidebar class="drawer__sidebar">
-      <img src="{{ "/assets/images/logo.png" | prepend:site.baseurl }}" class="drawer__logo">
+      <img src="{{ "/assets/images/logo-small.svg" | prepend:site.baseurl }}" class="drawer__logo">
 
       <div class="drawer__nav container">
         <ul class="list-stacked list-stacked--tiny">
           <li class="drawer__item">
-            <a href="./index" class="drawer__link text-rotate text-uppercase">Le festival</a>
+            <a href="./index" class="drawer__link text-rotate text-uppercase">{{ t.festival }}</a>
           </li>
           <li class="drawer__item">
-            <a href="./brasseurs" class="drawer__link text-rotate text-uppercase">Brasseurs</a>
+            <a href="./brasseurs" class="drawer__link text-rotate text-uppercase">{{ t.brewers }}</a>
           </li>
           <li class="drawer__item">
-            <a href="#" class="drawer__link text-rotate text-uppercase">Musiciens</a>
+            <a href="./musiciens" class="drawer__link text-rotate text-uppercase">{{ t.musicians }}</a>
           </li>
         </ul>
       </div>
