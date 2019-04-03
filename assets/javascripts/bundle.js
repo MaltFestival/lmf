@@ -50,9 +50,15 @@
 	
 	var _slider2 = _interopRequireDefault(_slider);
 	
+	var _drawer = __webpack_require__(3);
+	
+	var _drawer2 = _interopRequireDefault(_drawer);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	document.addEventListener('DOMContentLoaded', function () {
+	  new _drawer2.default();
+	
 	  if (document.querySelector('body').classList.contains('home')) {
 	    new _slider2.default(document.querySelectorAll('.swiper-container'));
 	  }
@@ -8103,6 +8109,67 @@
 	
 	})));
 
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	/*----------------------------------------*\
+	  DRAWER
+	\*----------------------------------------*/
+	
+	var Drawer = function () {
+	  function Drawer() {
+	    _classCallCheck(this, Drawer);
+	
+	    this._triggers = [].concat(_toConsumableArray(document.querySelectorAll('[data-drawer="action"]')));
+	
+	    this._addEventListeners();
+	  }
+	
+	  _createClass(Drawer, [{
+	    key: '_addEventListeners',
+	    value: function _addEventListeners() {
+	      var _this = this;
+	
+	      this._triggers.forEach(function (trigger) {
+	        trigger.addEventListener('click', _this.drawerCollapse);
+	      });
+	    }
+	  }, {
+	    key: 'drawerCollapse',
+	    value: function drawerCollapse(e) {
+	      var body = document.querySelector('body');
+	      var burger = document.querySelector('#js-drawer-burger');
+	
+	      if (body.classList.contains('drawer-open')) {
+	        body.classList.remove('drawer-open');
+	        burger.classList.remove('is-active');
+	      } else {
+	        if (e.target.id !== 'js-drawer-overlay') {
+	          body.classList.add('drawer-open');
+	          burger.classList.add('is-active');
+	        }
+	      }
+	    }
+	  }]);
+	
+	  return Drawer;
+	}();
+	
+	exports.default = Drawer;
 
 /***/ })
 /******/ ]);

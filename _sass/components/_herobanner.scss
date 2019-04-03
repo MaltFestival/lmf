@@ -11,19 +11,26 @@
   background-image: url('images/herobanner.svg');
 }
 
-  .herobanner__burger {
-    display: none; // hidden until we need it
-    width: 80px;
-    height: 80px;
+.herobanner--small {
+  height: 280px;
 
-    position: fixed;
-    top: 50px;
-    left: 0px;
-    z-index: 100;
-
-    background-image: url('images/burger.svg');
-    background-repeat: no-repeat;
+  @include media('sm') {
+    height: 450px;
   }
+
+  .herobanner__center {
+    width: 100%;
+  }
+
+  .herobanner__logo {
+    width: 100px;
+    margin: 0 auto;
+
+    @include media('sm') {
+      width: 150px;
+    }
+  }
+}
 
   .herobanner__container {
     display: flex;

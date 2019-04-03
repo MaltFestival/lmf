@@ -2,4 +2,18 @@
 - name: Horderum
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
   image: "/assets/images/brewers/hordeum.png"
+  image-box:
+  from: Martigny, Valais
   link: http://www.hordeum.ch/
+- name: Bartis
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  image: "/assets/images/brewers/bartis.png"
+  image-box: 
+  from: Ville, canton
+  link: https://www.bartis.ch/
+- name: BFM
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  image: "/assets/images/brewers/bfm.png"
+  image-box:
+  from: Ville, canton
+  link: https://www.brasseriebfm.ch/

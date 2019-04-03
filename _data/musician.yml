@@ -2,4 +2,12 @@
 - name: Gipsy Tonic
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
   image: "/assets/images/musician/gipsy-tonic.png"
+  image-box:
+  from: Lausanne
+  link: https://gipsytonic.wixsite.com/gtband?fbclid=IwAR2klULo1n2PlkT0zg5MKLia5JgP7sdhYQm-rAPrWEFbUZnF1fOuOhOkWAQ
+- name: Gipsy Tonic
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  image: "/assets/images/musician/gipsy-tonic.png"
+  image-box:
+  from: Lausanne
   link: https://gipsytonic.wixsite.com/gtband?fbclid=IwAR2klULo1n2PlkT0zg5MKLia5JgP7sdhYQm-rAPrWEFbUZnF1fOuOhOkWAQ

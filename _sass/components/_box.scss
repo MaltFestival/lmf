@@ -1,3 +1,89 @@
 /*----------------------------------------*\
   BOX
 \*----------------------------------------*/
+
+.box--grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: "left-area" "right-area";
+  overflow: hidden;
+
+  @include media('sm') {
+    grid-template-columns: 50%;
+    grid-template-areas: "left-area right-area";
+
+    &:nth-child(odd) {
+      grid-template-columns: 50%;
+      grid-template-areas: "right-area left-area";
+    }
+  }
+
+  .box__left {
+    height: 400px;
+    width: 100% ;
+
+    @include media('sm') {
+      max-height: 400px;
+      max-width: 400px;
+    }
+
+    grid-area: left-area;
+    overflow: hidden;
+    position: relative;
+
+    .box__img-container {
+      width: 200%;
+      height: 200%;
+
+      position: relative;
+      right: 0;
+      bottom: 0;
+      left: -50%;
+      top: -50%;
+    }
+
+    .box__img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      min-width: 50%;
+      min-height: 50%;
+      overflow-x: hidden;
+    }
+
+    .box__title {
+      position: absolute;
+      bottom: 24px;
+      left: 24px;
+
+      h2 {
+        font-size: rem(35px);
+      }
+
+      h2, p {
+        color: $alt-color-white;
+      }
+    }
+  }
+
+  .box__right {
+    height: 400px;
+    width: 100% ;
+
+    @include media('sm') {
+      max-height: 400px;
+      max-width: 400px;
+    }
+
+    grid-area: right-area;
+  }
+
+    .box__logo {
+      max-width: 150px;
+      margin: 0 auto;
+    }
+}
