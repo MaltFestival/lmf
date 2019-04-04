@@ -53,6 +53,12 @@
   image-box: "/assets/images/brewers/background/simmentaler.png"
   from: Lenk im Simmental, Berne
   link: https://simmentalerbier.ch/
+- name: Totally Beer
+  content: Il y a déjà quelques années, Anna et Fabricio, jeunes mariés, ont quitté la mégapole brésilienne de São Paulo, pour s’installer sur les rives du Léman. De cette aventure est née une brasserie mélant la tradition européenne avec la modernité et la détente brésilienne!
+  image: "/assets/images/brewers/totally.png"
+  image-box: "/assets/images/brewers/background/geneve_1.png"
+  from: Genève
+  link: http://www.totallybeer.ch/
 - name: Virage
   content: La Brasserie du Virage est l'aboutissement de l'aventure collective de cinq amis passionnés par le brassage - Quentin, Jonas, Jamal, Thibaut et Livio.
   image: "/assets/images/brewers/virage.png"
