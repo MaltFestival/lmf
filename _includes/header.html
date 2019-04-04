@@ -1,14 +1,23 @@
-<header class="herobanner">
-  <div class="herobanner__burger"></div>
-  <div class="herobanner__container container">
-    <div class="herobanner__left">
-      <h1 class="herobanner__title text-rotate md-text-right">{{ t.herobanner.title.when }}</h1>
+{% if page.url == '/' %}
+  <header class="herobanner">
+    <div class="herobanner__container container">
+      <div class="herobanner__left">
+        <h1 class="herobanner__title text-rotate md-text-right">{{ t.herobanner.title.when }}</h1>
+      </div>
+      <div class="herobanner__center">
+        <img src="{{ "/assets/images/logo.png" | prepend:site.baseurl }}" class="herobanner__logo">
+      </div>
+      <div class="herobanner__right">
+        <h1 class="herobanner__title text-rotate">{{ t.herobanner.title.where }}</h1>
+      </div>
     </div>
-    <div class="herobanner__center">
-      <img src="{{ "/assets/images/logo.png" | prepend:site.baseurl }}" class="herobanner__logo">
+  </header>
+{% else %}
+  <header class="herobanner herobanner--small">
+    <div class="herobanner__container container">
+      <div class="herobanner__center">
+        <img src="{{ "/assets/images/logo.png" | prepend:site.baseurl }}" class="herobanner__logo">
+      </div>
     </div>
-    <div class="herobanner__right">
-      <h1 class="herobanner__title text-rotate">{{ t.herobanner.title.where }}</h1>
-    </div>
-  </div>
-</header>
+  </header>
+{% endif %}

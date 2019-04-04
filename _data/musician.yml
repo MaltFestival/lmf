@@ -1,9 +1,19 @@
 ---
 - name: Gipsy Tonic
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
-  image: "/assets/images/musician/gipsy-tonic.png"
+  content: Issus d’univers musicaux différents, allant du classique au punk, le groupe est soudé et a de l’énergie à revendre en puisant dans sa diversité.
+  image: "/assets/images/musician/gipsy_tonic.png"
+  image-box: "/assets/images/musician/background/gipsy_tonic.png"
+  from: Jazz manouche
   link: https://gipsytonic.wixsite.com/gtband?fbclid=IwAR2klULo1n2PlkT0zg5MKLia5JgP7sdhYQm-rAPrWEFbUZnF1fOuOhOkWAQ
+- name: Kilario
+  content:
+  image: ""
+  image-box: "/assets/images/musician/background/kilario.png"
+  from:
+  link: 
 - name: Mizan Collectif
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  content: Mizan Collectif revisite à sa manière les chansons chaâbi, gnawi, kabiles, détonnant en fusion une riche palette de couleurs, avec la présence toute particulière de la mandole sortie de son cadre traditionnel.
   image: "/assets/images/musician/mizan.png"
+  image-box: "/assets/images/musician/background/mizan.png"
+  from:
   link: https://www.facebook.com/pg/bandmizan/

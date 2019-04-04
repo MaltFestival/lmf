@@ -1,0 +1,29 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<div class="container container--small container--tight">
+  <h1 class="text-rotate text-center text-main">{{ t.brewers }}</h1>
+
+  {% for brewer in site.data.brewers %}
+    <div class="box box--default box--grid pdg0">
+      <div class="box__left">
+        <div class="box__img-container">
+          {% if brewer.image-box %}
+            <img src="{{ brewer.image-box | prepend:site.baseurl }}" class="box__img">
+          {% else %}
+            <img src="{{ '/assets/images/box--placeholder.png' | prepend:site.baseurl }}" class="box__img">
+          {% endif %}
+        </div>
+        <div class="box__title">
+          <h2 class="mrg0">{{ brewer.name }}</h2>
+          <p class="mrgb0">{{ brewer.from }}</p>
+        </div>
+      </div>
+      <div class="box__right pdg">
+        <a href="{{ brewer.link }}" target="_blank">
+          <img src="{{ brewer.image | prepend:site.baseurl }}" class="box__logo">
+        </a>
+        <p class="text-center">{{ brewer.content }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
