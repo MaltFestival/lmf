@@ -4,7 +4,7 @@
 
 .footer {
   margin-top: $spacing-unit-large;
-  padding: $spacing-unit-huge 0;
+  padding: $spacing-unit-default 0;
 
   background-image: url('images/section-footer.svg');
   background-size: 298px 82.36px;
@@ -22,7 +22,8 @@
 
   .footer__links {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    overflow: hidden;
 
     img {
       height: 50px;

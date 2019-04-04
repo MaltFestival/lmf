@@ -45,6 +45,7 @@
 
     &::after {
       bottom: -200px;
+      pointer-events: none;
 
       background-position: bottom center;
     }

@@ -1,26 +1,30 @@
 <footer class="footer">
   <div class="container">
-    <div class="footer__title text-center">
-      <h1>Lausanne Malt Festival</h1>
-      <a href="mailto:info@maltfestival.ch" class="footer__email">info@maltfestival.ch</a>
-    </div>
     <div class="footer__links mrgt">
-      <a href="https://www.facebook.com/lausannemaltfestival/" target="_blank"><img src="{{ "/assets/images/fb.svg" | prepend:site.baseurl }}" class="footer__img"></a>
-      <img src="{{ "/assets/images/logo-small.svg" | prepend:site.baseurl }}" class="footer__img">
-      <a href="https://www.instagram.com/lausannemaltfestival/" target="_blank"><img src="{{ "/assets/images/insta.svg" | prepend:site.baseurl }}" class="footer__img"></a>
-    </div>
-
-    <div class="box-title mrgt++">
-      <h2 class="text-center mrgv0">Partenaires</h2>
-    </div>
-    <div class="grid grid--multiline">
+      <a href="https://www.facebook.com/lausannemaltfestival/" target="_blank">
+          <img src="{{ "/assets/images/icons/facebook.png" | prepend:site.baseurl }}" class="footer__img">
+      </a>
+      <a href="https://www.instagram.com/lausannemaltfestival/" target="_blank">
+          <img src="{{ "/assets/images/icons/instagram.png" | prepend:site.baseurl }}" class="footer__img">
+      </a>
+      <a href="mailto:info@maltfestival.ch">
+          <img src="{{ "/assets/images/icons/association.png" | prepend:site.baseurl }}" class="footer__img">
+      </a>
+      <a>
+          <img src="{{ "/assets/images/icons/dummy.png" | prepend:site.baseurl }}" class="footer__img">
+      </a>
+      <img src="{{ "/assets/images/icons/lmf_footer.png" | prepend:site.baseurl }}" class="footer__img">
+      <a>
+          <img src="{{ "/assets/images/icons/dummy.png" | prepend:site.baseurl }}" class="footer__img">
+      </a>
       {% for partner in site.data.partner %}
-        <div class="grid__item w-1/2 md-w-1/3 lg-w-1/4">
-          <a href="{{ partner.link }}" target="_blank">
-            <img src="{{ partner.image | prepend:site.baseurl }}" class="about__logo">
-          </a>
-        </div>
+        <a href="{{ partner.link }}" target="_blank">
+          <img src="{{ partner.image | prepend:site.baseurl }}" class="about__logo">
+        </a>
       {% endfor %}
+      <a>
+          <img src="{{ "/assets/images/icons/dummy.png" | prepend:site.baseurl }}" class="footer__img">
+      </a>
     </div>
   </div>
 </footer>
