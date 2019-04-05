@@ -5,7 +5,11 @@
 
   {% for sponsor in site.data.sponsor %}
     <div class="box box--default box--grid pdg0">
+      {% if sponsor.premium %}
       <div class="box__left">
+      {% else %}
+      <div class="box__left box__left--small">
+      {% endif %}
         <div class="box__img-container">
           {% if sponsor.image-box %}
             <img src="{{ sponsor.image-box | prepend:site.baseurl }}" class="box__img">
@@ -18,8 +22,14 @@
           <p class="mrgb0">{{ sponsor.type }}</p>
         </div>
       </div>
+      {% if sponsor.premium %}
       <div class="box__right pdg">
-        <img src="{{ sponsor.image | prepend:site.baseurl }}" class="box__logo">
+      {% else %}
+      <div class="box__right box__right--small pdg">
+      {% endif %}
+        <a href="{{ sponsor.link }}" target="_blank" class="box__container-logo">
+          <img src="{{ sponsor.image | prepend:site.baseurl }}" class="box__logo">
+        </a>
         {% if sponsor.content %}
           <p class="text-center">{{ sponsor.content }}</p>
         {% endif %}

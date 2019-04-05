@@ -19,7 +19,9 @@
         </div>
       </div>
       <div class="box__right pdg">
-        <img src="{{ musician.image | prepend:site.baseurl }}" class="box__logo">
+        <a href="{{ brewer.link }}" target="_blank" class="box__container-logo">
+          <img src="{{ musician.image | prepend:site.baseurl }}" class="box__logo">
+        </a>
         <p class="text-center">{{ musician.content }}</p>
       </div>
     </div>

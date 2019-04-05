@@ -4,13 +4,16 @@
   image: "/assets/images/sponsor/logo_je.png"
   type: Premium sponsor
   link: https://je.epfl.ch/
+  premium: true
 - name: Levatura SA
   content:
   image: "/assets/images/sponsor/logo_levatura.png"
   type: Local sponsor
   link: https://levatura.ch/
+  premium: false
 - name: Zoo Burger
   content:
   image: "/assets/images/sponsor/logo_zooburger.png"
   type: Local sponsor
   link: https://www.zooburger.ch/
+  premium: false
