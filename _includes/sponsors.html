@@ -1,0 +1,29 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<div class="container container--small container--tight">
+  <h1 class="text-rotate text-center text-main">{{ t.sponsors }}</h1>
+
+  {% for sponsor in site.data.sponsor %}
+    <div class="box box--default box--grid pdg0">
+      <div class="box__left">
+        <div class="box__img-container">
+          {% if sponsor.image-box %}
+            <img src="{{ sponsor.image-box | prepend:site.baseurl }}" class="box__img">
+          {% else %}
+            <img src="{{ '/assets/images/box--placeholder.png' | prepend:site.baseurl }}" class="box__img">
+          {% endif %}
+        </div>
+        <div class="box__title">
+          <h2 class="mrg0">{{ sponsor.name }}</h2>
+          <p class="mrgb0">{{ sponsor.type }}</p>
+        </div>
+      </div>
+      <div class="box__right pdg">
+        <img src="{{ sponsor.image | prepend:site.baseurl }}" class="box__logo">
+        {% if sponsor.content %}
+          <p class="text-center">{{ sponsor.content }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

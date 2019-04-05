@@ -2,12 +2,15 @@
 - name: Junior Enterprise
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
   image: "/assets/images/sponsor/logo_je.png"
+  type: Premium sponsor
   link: https://je.epfl.ch/
 - name: Levatura SA
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  content:
   image: "/assets/images/sponsor/logo_levatura.png"
+  type: Local sponsor
   link: https://levatura.ch/
 - name: Zoo Burger
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  content:
   image: "/assets/images/sponsor/logo_zooburger.png"
+  type: Local sponsor
   link: https://www.zooburger.ch/
