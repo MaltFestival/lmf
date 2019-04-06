@@ -59,4 +59,34 @@
     </div>
   {% endif %}
   {% endfor %}
+
+  <div class="box-title">
+    <h2 class="text-center mrgv0">{{ t.partner }}</h2>
+  </div>
+
+  {% for partner in site.data.partner %}
+    <div class="box box--default box--grid pdg0">
+      <div class="box__left">
+        <div class="box__img-container">
+          {% if partner.image-box %}
+            <img src="{{ partner.image-box | prepend:site.baseurl }}" class="box__img">
+          {% else %}
+            <img src="{{ '/assets/images/box--placeholder.png' | prepend:site.baseurl }}" class="box__img">
+          {% endif %}
+        </div>
+        <div class="box__title">
+          <h2 class="mrg0">{{ partner.name }}</h2>
+          <p class="mrgb0">{{ partner.type }}</p>
+        </div>
+      </div>
+      <div class="box__right pdg">
+        <a href="{{ partner.link }}" target="_blank" class="box__container-logo">
+          <img src="{{ partner.image | prepend:site.baseurl }}" class="box__logo">
+        </a>
+        {% if partner.content %}
+          <p class="text-center">{{ partner.content }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
 </div>
