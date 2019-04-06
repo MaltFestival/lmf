@@ -1,0 +1,62 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<div class="container container--small container--tight">
+  <h1 class="text-rotate text-center text-main">{{ t.sponsors }}</h1>
+
+  {% assign reverse_order = (site.data.sponsor | reverse) %}
+  {% for sponsor in reverse_order %}
+  {% if sponsor.premium %}
+    <div class="box box--default box--grid pdg0">
+      <div class="box__left">
+        <div class="box__img-container">
+          {% if sponsor.image-box %}
+            <img src="{{ sponsor.image-box | prepend:site.baseurl }}" class="box__img">
+          {% else %}
+            <img src="{{ '/assets/images/box--placeholder.png' | prepend:site.baseurl }}" class="box__img">
+          {% endif %}
+        </div>
+        <div class="box__title">
+          <h2 class="mrg0">{{ sponsor.name }}</h2>
+          <p class="mrgb0">{{ sponsor.type }}</p>
+        </div>
+      </div>
+      <div class="box__right pdg">
+        <a href="{{ sponsor.link }}" target="_blank" class="box__container-logo">
+          <img src="{{ sponsor.image | prepend:site.baseurl }}" class="box__logo">
+        </a>
+        {% if sponsor.content %}
+          <p class="text-center">{{ sponsor.content }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+  {% endfor %}
+
+  {% for sponsor in site.data.sponsor %}
+  {% if sponsor.premium == false %}
+    <div class="box box--default box--grid pdg0">
+        <div class="box__left box__left--small">
+        <div class="box__img-container">
+          {% if sponsor.image-box %}
+            <img src="{{ sponsor.image-box | prepend:site.baseurl }}" class="box__img">
+          {% else %}
+            <img src="{{ '/assets/images/box--placeholder.png' | prepend:site.baseurl }}" class="box__img">
+          {% endif %}
+        </div>
+        <div class="box__title">
+          <h2 class="mrg0">{{ sponsor.name }}</h2>
+          <p class="mrgb0">{{ sponsor.type }}</p>
+        </div>
+      </div>
+      <div class="box__right box__right--small pdg">
+        <a href="{{ sponsor.link }}" target="_blank" class="box__container-logo">
+          <img src="{{ sponsor.image | prepend:site.baseurl }}" class="box__logo">
+        </a>
+        {% if sponsor.content %}
+          <p class="text-center">{{ sponsor.content }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+  {% endfor %}
+</div>

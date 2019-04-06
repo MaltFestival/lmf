@@ -1,29 +1,50 @@
 ---
 - name: Beer label
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  content:
   image: "/assets/images/sponsor/logo_beerlabel.png"
+  image-box: "/assets/images/sponsor/background/label.png"
+  type: Local Sponsor
   link: https://www.beer-label.ch/
-- name: Echami Léman 
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  premium: false
+- name: Echami Léman
+  content:
   image: "/assets/images/sponsor/logo_echami.png"
+  image-box: "/assets/images/sponsor/background/echami.png"
+  type: Local Sponsor
   link: http://www.echami.ch/
+  premium: false
 - name: Junior Enterprise
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  content:
   image: "/assets/images/sponsor/logo_je.png"
+  image-box: "/assets/images/sponsor/background/je.png"
+  type: Local Sponsor
   link: https://je.epfl.ch/
+  premium: false
 - name: Levatura SA
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  content: Levatura, le projet un peu fou d'étudiants de la faculté de biologie de Lausanne. Leur but, participer à la fabrication de la bière artisanale et développer ses saveurs.
   image: "/assets/images/sponsor/logo_levatura.png"
+  image-box: "/assets/images/sponsor/background/levatura.png"
+  type: Local Sponsor
   link: https://levatura.ch/
+  premium: true
 - name: SCI Services
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  content:
   image: "/assets/images/sponsor/logo_sci.png"
+  image-box: "/assets/images/sponsor/background/sci.png"
+  type: Local Sponsor
   link: https://www.sci-services.ch/
+  premium: false
 - name: Swiss Bubble Football
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  content: Swiss Bubble Football organise des évènements de Bubble Football dans toute la Suisse. Chaussez vos baskets et préparez vous à rigoler sans interruption!
   image: "/assets/images/sponsor/logo_sbf.png"
+  image-box: "/assets/images/sponsor/background/sbf.png"
+  type: Festival Sponsor
   link: http://www.swissbubblefootball.com/
+  premium: true
 - name: Zoo Burger
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum ille timide vel potius verecunde Facio, inquit. Ne in odium veniam, si amicum destitero tueri. Animi enim quoque dolores percipiet omnibus.
+  content: Des burgers artisanaux entièrement faits par nos soins, dans nos cuisines et avec des produits frais et locaux, pour vous garantir la meilleure qualité possible.
   image: "/assets/images/sponsor/logo_zooburger.png"
+  image-box: "/assets/images/sponsor/background/zoo_burger.png"
+  type: Premium Sponsor
   link: https://www.zooburger.ch/
+  premium: true

@@ -7,13 +7,19 @@
   link: https://gipsytonic.wixsite.com/gtband?fbclid=IwAR2klULo1n2PlkT0zg5MKLia5JgP7sdhYQm-rAPrWEFbUZnF1fOuOhOkWAQ
 - name: Kilario
   content:
-  image: ""
+  image: "/assets/images/musician/kilario.png"
   image-box: "/assets/images/musician/background/kilario.png"
   from:
-  link: 
+  link: https://www.facebook.com/Kilario-2189766231334679/
 - name: Mizan Collectif
   content: Mizan Collectif revisite à sa manière les chansons chaâbi, gnawi, kabiles, détonnant en fusion une riche palette de couleurs, avec la présence toute particulière de la mandole sortie de son cadre traditionnel.
   image: "/assets/images/musician/mizan.png"
   image-box: "/assets/images/musician/background/mizan.png"
-  from:
+  from: Fuzz chaâbi
   link: https://www.facebook.com/pg/bandmizan/
+- name: Colores Quartet
+  content: Une collection d’histoires et d’univers qui part d’Afrique du Sud pour enjamber le Röstigraben par du Doudouk arménien et atterrir dans des grooves africains et latins.
+  image: "/assets/images/musician/colores.png"
+  image-box: "/assets/images/musician/background/colores.png"
+  from: Swingo-Latino-Dukduko éclectique
+  link: https://jeromelaffely.bandcamp.com/releases
