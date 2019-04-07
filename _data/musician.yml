@@ -1,6 +1,12 @@
 ---
+- name: Colores Quartet
+  content: Une collection d’histoires et d’univers qui part d’Afrique du Sud pour enjamber le Röstigraben par du Doudouk arménien et atterrir dans des grooves africains et latins.
+  image: "/assets/images/musician/colores.png"
+  image-box: "/assets/images/musician/background/colores.png"
+  from: Swingo-Latino-Dukduko éclectique
+  link: https://jeromelaffely.bandcamp.com/releases
 - name: Gipsy Tonic
-  content: Issus d’univers musicaux différents, allant du classique au punk, le groupe est soudé et a de l’énergie à revendre en puisant dans sa diversité.
+  content: "Gipsy Tonic délivre un swing manouche revisité avec une énergie folle: les 4 âmes du groupe sont soudées par un lien fort et puisent dans la diversité de leurs bagages musicaux pour faire s'évader et danser!"
   image: "/assets/images/musician/gipsy_tonic.png"
   image-box: "/assets/images/musician/background/gipsy_tonic.png"
   from: Jazz manouche
@@ -9,7 +15,7 @@
   content: Kilario lance le mood Tropical Groove à Lausanne. Samba-Rock, Bossa Nova, Jazz, Funk fusion; pleins de mots techniques pour du groove latin tout droit sorti du Brésil. Une musique vivante qui saura être adaptée à l'ambiance maltée des festivités.
   image: "/assets/images/musician/kilario.png"
   image-box: "/assets/images/musician/background/kilario.png"
-  from: Tropical Groove-Latin-Funk 
+  from: Tropical Groove-Latin-Funk
   link: https://www.facebook.com/Kilario-2189766231334679/
 - name: Mizan Collectif
   content: Mizan Collectif revisite à sa manière les chansons chaâbi, gnawi, kabiles, détonnant en fusion une riche palette de couleurs, avec la présence toute particulière de la mandole sortie de son cadre traditionnel.
@@ -17,9 +23,3 @@
   image-box: "/assets/images/musician/background/mizan.png"
   from: Fuzz chaâbi
   link: https://www.facebook.com/pg/bandmizan/
-- name: Colores Quartet
-  content: Une collection d’histoires et d’univers qui part d’Afrique du Sud pour enjamber le Röstigraben par du Doudouk arménien et atterrir dans des grooves africains et latins.
-  image: "/assets/images/musician/colores.png"
-  image-box: "/assets/images/musician/background/colores.png"
-  from: Swingo-Latino-Dukduko éclectique
-  link: https://jeromelaffely.bandcamp.com/releases
