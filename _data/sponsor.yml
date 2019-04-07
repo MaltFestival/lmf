@@ -24,7 +24,7 @@
   content: Levatura, le projet un peu fou d'étudiants de la faculté de biologie de Lausanne. Leur but, participer à la fabrication de la bière artisanale et développer ses saveurs.
   image: "/assets/images/sponsor/logo_levatura.png"
   image-box: "/assets/images/sponsor/background/levatura.png"
-  type: Local Sponsor
+  type: Local Sponsor +
   link: https://levatura.ch/
   premium: true
 - name: SCI Services
