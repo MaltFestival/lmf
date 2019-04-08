@@ -5,9 +5,32 @@
   image-box: "/assets/images/partner/background/lacustre.png"
   type: Partenaire
   link: https://www.facebook.com/thelacustre/
+  main: true
 - name: La Datcha
   content: Nous avons l’ambition de proposer à la population lausannoise des rendez-vous culturels hebdomadaires réguliers. La Datcha accueille les soirée dégustation du LMF.
   image: "/assets/images/partner/logo_datcha.png"
   image-box: "/assets/images/partner/background/datcha.png"
   type: Partenaire
   link: https://la-datcha.ch/
+  main: true
+- name: cgn
+  content:
+  image: "/assets/images/partner/cgn.png"
+  image-box: "/assets/images/partner/background/cgn.png"
+  type: Partenaire
+  link: https://www.cgn.ch/
+  main: false
+- name: Lausanne Tourisme
+  content:
+  image: "/assets/images/partner/tourisme.png"
+  image-box: "/assets/images/partner/background/tourisme.png"
+  type: Partenaire
+  link: https://www.lausanne-tourisme.ch/
+  main: false
+- name: qbeer
+  content:
+  image: "/assets/images/partner/qbeer.png"
+  image-box: "/assets/images/partner/background/qbeer.png"
+  type: Partenaire
+  link: https://qbeer.qoqa.ch/
+  main: false
