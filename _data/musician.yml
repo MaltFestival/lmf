@@ -11,6 +11,12 @@
   image-box: "/assets/images/musician/background/gipsy_tonic.png"
   from: Jazz manouche
   link: https://gipsytonic.wixsite.com/gtband?fbclid=IwAR2klULo1n2PlkT0zg5MKLia5JgP7sdhYQm-rAPrWEFbUZnF1fOuOhOkWAQ
+- name: Jean Toussaint (CH/ Les Diplomates)
+  content:
+  image: "/assets/images/musician/diplomat_b.png"
+  image-box: "/assets/images/musician/background/diplomat.png"
+  from: DJ
+  link: https://soundcloud.com/jeantoussaint
 - name: Kilario
   content: Kilario lance le mood Tropical Groove à Lausanne. Samba-Rock, Bossa Nova, Jazz, Funk fusion; pleins de mots techniques pour du groove latin tout droit sorti du Brésil. Une musique vivante qui saura être adaptée à l'ambiance maltée des festivités.
   image: "/assets/images/musician/kilario.png"
