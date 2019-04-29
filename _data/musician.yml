@@ -5,27 +5,60 @@
   image-box: "/assets/images/musician/background/colores.png"
   from: Swingo-Latino-Dukduko éclectique
   link: https://jeromelaffely.bandcamp.com/releases
+  ouchy: true
+- name: Giorgio Braga
+  content:
+  image: "/assets/images/musician/giorgio_braga.png"
+  image-box: "/assets/images/musician/background/giorgio_braga.png"
+  from: Resident Bourg
+  link: https://soundcloud.com/user-297364699?fbclid=IwAR1Xo84Q38WeBvxra7UC1T_z0lsHUb7bHXf7LomJFk7zKEAqwotIjvwAK3M
+  ouchy: false
 - name: Gipsy Tonic
   content: "Gipsy Tonic délivre un swing manouche revisité avec une énergie folle: les 4 âmes du groupe sont soudées par un lien fort et puisent dans la diversité de leurs bagages musicaux pour faire s'évader et danser!"
   image: "/assets/images/musician/gipsy_tonic.png"
   image-box: "/assets/images/musician/background/gipsy_tonic.png"
   from: Jazz manouche
   link: https://gipsytonic.wixsite.com/gtband?fbclid=IwAR2klULo1n2PlkT0zg5MKLia5JgP7sdhYQm-rAPrWEFbUZnF1fOuOhOkWAQ
+  ouchy: true
 - name: Jean Toussaint
   content: "Jean Toussaint, tonton diggeur acharné, aime construire le dancefloor avec de nouvelles curiosités. Son seul credo: vous faire danser sur les meilleurs grooves tropicaux d’hier et d’aujourd’hui jusqu’à en perdre le nord et bien sûr la raison…"
   image: "/assets/images/musician/diplomat.png"
   image-box: "/assets/images/musician/background/diplomat.png"
   from: (CH/ Les Diplomates) DJ
   link: https://soundcloud.com/jeantoussaint
+  ouchy: true
 - name: Kilario
   content: Kilario lance le mood Tropical Groove à Lausanne. Samba-Rock, Bossa Nova, Jazz, Funk fusion; pleins de mots techniques pour du groove latin tout droit sorti du Brésil. Une musique vivante qui saura être adaptée à l'ambiance maltée des festivités.
   image: "/assets/images/musician/kilario.png"
   image-box: "/assets/images/musician/background/kilario.png"
   from: Tropical Groove-Latin-Funk
   link: https://www.facebook.com/Kilario-2189766231334679/
+  ouchy: true
+- name: Lager
+  content:
+  image: "/assets/images/musician/lager.png"
+  image-box: "/assets/images/musician/background/lager.png"
+  from: Trio DJ Underground
+  link:
+  ouchy: false
+- name: Mah'mood
+  content:
+  image: "/assets/images/musician/mahmood.png"
+  image-box: "/assets/images/musician/background/mahmood.png"
+  from:
+  link: https://soundcloud.com/mah-m00d
+  ouchy: false
 - name: Mizan Collectif
   content: Mizan Collectif revisite à sa manière les chansons chaâbi, gnawi, kabiles, détonnant en fusion une riche palette de couleurs, avec la présence toute particulière de la mandole sortie de son cadre traditionnel.
   image: "/assets/images/musician/mizan.png"
   image-box: "/assets/images/musician/background/mizan.png"
   from: Fuzz chaâbi
   link: https://www.facebook.com/pg/bandmizan/
+  ouchy: true
+- name: Tropical Blue Master Clash
+  content:
+  image: "/assets/images/musician/tbmc.png"
+  image-box: "/assets/images/musician/background/tbmc.png"
+  from: DJ
+  link: https://soundcloud.com/tropicalbluemasterclash
+  ouchy: false
