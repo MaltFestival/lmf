@@ -1,0 +1,25 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<div class="container container--small container--tight">
+  <h1 class="text-rotate text-center text-main">{{ t.info }}</h1>
+
+  {% for info in site.data.infos %}
+    <div class="box box--default box--grid pdg0">
+      <div class="box__left">
+        <div class="box__img-container">
+          {% if info.image-box %}
+            <img src="{{ info.image-box | prepend:site.baseurl }}" class="box__img">
+          {% else %}
+            <img src="{{ '/assets/images/box--placeholder.png' | prepend:site.baseurl }}" class="box__img">
+          {% endif %}
+        </div>
+        <div class="box__title">
+          <h2 class="mrg0">{{ info.title }}</h2>
+        </div>
+      </div>
+      <div class="box__right pdg">
+        <p style="white-space: pre-line" class="text-center">{{ info.content }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
