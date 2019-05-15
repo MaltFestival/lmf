@@ -13,6 +13,7 @@
     Entrée gratuite, festival ouvert à tous.
     Familles et personnes à mobilité réduite bienvenues!
   image-box: "/assets/images/partner/background/lacustre.png"
+  small: false
 - title: Consommations
   content: |
     Soft à CHF 3.90
@@ -25,4 +26,11 @@
     Vous pouvez emmener votre propre verre si vous le désirez, à condition qu’il soit gradué!
 
     Notre partenaire Le Lacustre vous permet de vous restaurer avec grills, pizzas, glaces, etc.
-  image-box: "/assets/images/partner/background/lmf18.png"
+  image-box: "/assets/images/faq/lmf18.png"
+  small: false
+- title: Carte des bières
+  content: |
+
+    46 biéres des 12 brasseries artisanales, <a href="https://maltfestival.ch/assets/pdf/beers.pdf">voici</a> notre carte des bières.
+  image-box: "/assets/images/faq/beers.png"
+  small: true

@@ -4,8 +4,13 @@
   <h1 class="text-rotate text-center text-main">{{ t.info }}</h1>
 
   {% for info in site.data.infos %}
+  {% if info.small == false %}
     <div class="box box--default box--grid pdg0">
       <div class="box__left">
+  {% else %}
+    <div class="box box--default box--grid pdg0">
+      <div class="box__left box__left--small">
+  {% endif %}
         <div class="box__img-container">
           {% if info.image-box %}
             <img src="{{ info.image-box | prepend:site.baseurl }}" class="box__img">
@@ -17,7 +22,11 @@
           <h2 class="mrg0">{{ info.title }}</h2>
         </div>
       </div>
-      <div class="box__right pdg">
+      {% if info.small == false %}
+        <div class="box__right pdg">
+      {% else %}
+        <div class="box__right box__right--small pdg">
+      {% endif %}
         <p style="white-space: pre-line" class="text-center">{{ info.content }}</p>
       </div>
     </div>
