@@ -34,3 +34,10 @@
   type: Partenaire
   link: https://qbeer.qoqa.ch/
   main: false
+- name: Ville de Lausanne
+  content:
+  image: "/assets/images/partner/ville.png"
+  image-box: "/assets/images/partner/background/ville.png"
+  type: Partenaire
+  link: https://www.lausanne.ch/
+  main: false
